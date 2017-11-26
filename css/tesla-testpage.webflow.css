@@ -1,0 +1,259 @@
+.product-section {
+  font-family: Gotham, sans-serif;
+  font-weight: 300;
+}
+
+.main-video {
+  height: 650px;
+  text-align: center;
+}
+
+.column {
+  height: 360px;
+  background-image: -webkit-linear-gradient(270deg, #282828, #282828);
+  background-image: linear-gradient(180deg, #282828, #282828);
+}
+
+.image {
+  float: left;
+}
+
+.nav-links {
+  display: block;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+  font-family: Gotham, sans-serif;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.tesla-nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.tesla-menu-right-float {
+  float: right;
+}
+
+.tesla-menu-links {
+  display: inline-block;
+  margin-left: 75px;
+}
+
+.product-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: -2px;
+  margin-left: -2px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.product-row.reversed {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.column-2 {
+  height: 360px;
+  background-image: url('../images/Model-3---Interior-Dashboard---Head-On.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.column-2.semi {
+  background-image: url('../images/Semi_Interior_Command-Web.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.column-2.energy {
+  background-image: url('../images/T-Sroof-Tuscan-1200x627-web.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.h1-product-name {
+  color: #fff;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 300;
+}
+
+.product-info {
+  margin: 40px;
+}
+
+.product-subtitle {
+  margin-top: 20px;
+  color: #fff;
+  line-height: 14px;
+}
+
+.product-description {
+  margin-top: 40px;
+  color: #fff;
+  line-height: 21px;
+}
+
+.tesla-button {
+  display: inline-block;
+  width: 170px;
+  height: 38px;
+  margin-top: 40px;
+  margin-right: 40px;
+  background-color: #c00;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.tesla-button:hover {
+  height: 40px;
+  margin-top: 38px;
+  border: 2px solid #ffdbdb;
+}
+
+.tesla-button.hero {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.tesla-button.hero:hover {
+  margin-top: 8px;
+}
+
+.product-commitment {
+  padding-top: 250px;
+  padding-bottom: 10px;
+}
+
+.heading {
+  display: inline-block;
+  max-width: 460px;
+  font-family: Gotham, sans-serif;
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.container {
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.body {
+  font-family: Gotham, sans-serif;
+  font-weight: 300;
+}
+
+.text-block {
+  display: inline-block;
+  max-width: 620px;
+  margin-top: 37px;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.hero-text {
+  display: inline-block;
+  max-width: 380px;
+  margin-top: 140px;
+  font-weight: 300;
+}
+
+.learn-more-label {
+  display: block;
+  margin-top: 50px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.text-block-2 {
+  display: inline-block;
+  text-align: center;
+}
+
+.container-2 {
+  margin-top: 240px;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .column {
+    height: 390px;
+  }
+  .tesla-menu-links {
+    display: none;
+  }
+  .product-row {
+    display: block;
+  }
+  .product-row.reversed {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .column-2 {
+    height: 390px;
+  }
+  .tesla-button {
+    margin-top: 20px;
+  }
+  .tesla-button:hover {
+    margin-top: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  .tesla-nav-link {
+    display: none;
+  }
+  .product-row.reversed {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 479px) {
+  .tesla-button {
+    display: inline-block;
+    margin-top: 10px;
+  }
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('../fonts/Gotham-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url('../fonts/Gotham-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
