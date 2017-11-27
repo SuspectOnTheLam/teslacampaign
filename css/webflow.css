@@ -414,7 +414,6 @@ textarea.w-select {
 }
 .w-row:before,
 .w-row:after {
-  content: " ";
   display: table;
 }
 .w-row:after {

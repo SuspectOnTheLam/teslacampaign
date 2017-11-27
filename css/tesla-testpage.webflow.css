@@ -4,7 +4,8 @@
 }
 
 .main-video {
-  height: 650px;
+  height: 80vh;
+  min-height: 600px;
   text-align: center;
 }
 
@@ -51,13 +52,6 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-right: -2px;
-  margin-left: -2px;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
 }
 
 .product-row.reversed {
@@ -223,6 +217,14 @@
   .tesla-button:hover {
     margin-top: 18px;
   }
+  .product-commitment {
+    padding-top: 100px;
+  }
+  .container-2 {
+    margin-top: 90px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -239,9 +241,12 @@
 }
 
 @media (max-width: 479px) {
-  .tesla-button {
-    display: inline-block;
-    margin-top: 10px;
+  .column {
+    height: 420px;
+  }
+  .hero-text {
+    padding-right: 20px;
+    padding-left: 20px;
   }
 }
 
