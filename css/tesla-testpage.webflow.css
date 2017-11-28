@@ -15,10 +15,6 @@
   background-image: linear-gradient(180deg, #282828, #282828);
 }
 
-.image {
-  float: left;
-}
-
 .nav-links {
   display: block;
   margin-top: 30px;
@@ -36,6 +32,10 @@
   margin-left: 10px;
   color: #fff;
   text-decoration: none;
+}
+
+.tesla-nav-link:hover {
+  color: silver;
 }
 
 .tesla-menu-right-float {
@@ -194,6 +194,10 @@
 .container-2 {
   margin-top: 240px;
   text-align: center;
+}
+
+.link-block {
+  float: left;
 }
 
 @media (max-width: 991px) {
