@@ -135,14 +135,10 @@
   margin-top: 8px;
 }
 
-.product-commitment {
-  padding-top: 240px;
-  padding-bottom: 10px;
-}
-
-.heading {
+.sustainablemessage {
   display: inline-block;
   max-width: 460px;
+  margin-top: 150px;
   font-family: Gotham, sans-serif;
   font-size: 36px;
   line-height: 48px;
@@ -184,7 +180,9 @@
 }
 
 .text-block-2 {
-  display: inline-block;
+  display: block;
+  margin-top: 200px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -218,8 +216,11 @@
   .tesla-button:hover {
     margin-top: 18px;
   }
-  .product-commitment {
-    padding-top: 100px;
+  .sustainablemessage {
+    margin-top: 100px;
+  }
+  .text-block-2 {
+    margin-top: 100px;
   }
   .container-2 {
     margin-top: 90px;
