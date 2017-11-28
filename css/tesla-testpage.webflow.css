@@ -48,18 +48,14 @@
 }
 
 .product-row {
+  display: block;
+}
+
+.product-row.reversed {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-}
-
-.product-row.reversed {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-  -webkit-flex-direction: row-reverse;
-  -ms-flex-direction: row-reverse;
-  flex-direction: row-reverse;
 }
 
 .column-2 {
@@ -135,7 +131,7 @@
 }
 
 .product-commitment {
-  padding-top: 250px;
+  padding-top: 240px;
   padding-bottom: 10px;
 }
 
