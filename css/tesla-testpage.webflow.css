@@ -211,10 +211,12 @@
     height: 390px;
   }
   .tesla-button {
+    width: 160px;
     margin-top: 10px;
   }
   .tesla-button:hover {
-    margin-top: 18px;
+    display: inline-block;
+    margin-top: 8px;
   }
   .sustainablemessage {
     margin-top: 100px;
