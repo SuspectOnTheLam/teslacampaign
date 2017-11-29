@@ -5,6 +5,7 @@
 
 .main-video {
   height: 80vh;
+  max-height: 800px;
   min-height: 600px;
   text-align: center;
 }
@@ -66,9 +67,8 @@
 .column-2 {
   height: 360px;
   background-image: url('../images/Model-3---Interior-Dashboard---Head-On.jpg');
-  background-position: 0px 0px;
+  background-position: 50% 50%;
   background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .column-2.semi {
